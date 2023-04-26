@@ -9,6 +9,9 @@ html {
     justify-items: center;
     align-items: center;
     height: 100%;
+    
+/* body*/
+
 }
 body {
     border-radius: 5px;
