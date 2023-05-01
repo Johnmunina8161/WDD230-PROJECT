@@ -128,6 +128,6 @@ footer a:hover {
     background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(58, 238, 82);
+    background-color: rgb(172, 179, 172);
     border-radius: 5px;
 }
