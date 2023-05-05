@@ -288,7 +288,7 @@ h4 + p {
 }
 
 
-/* Styles for the footer and it's child elements */
+/* Styles for  the footer and it's child elements */
 footer {
     box-shadow: 0 0 10px var(--default-dark);
     background-color: var(--main-color);
