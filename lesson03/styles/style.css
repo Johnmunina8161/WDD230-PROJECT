@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Exo+2:wght@800&display=swap');
 
 :root {
-    --main-color: #76f012;
+    --main-color: #4643e6;
     --secondary-color: #add8e6;
     --accent-color: #eceef0;
     --default-light: #ffffff;
@@ -228,7 +228,7 @@ a {
     padding: 0.5rem;
     display: block;
     text-align: center;
-    color: var(--default-dark);
+    color: white;
 }
 .typo-holder > span > span {
     display: block;
