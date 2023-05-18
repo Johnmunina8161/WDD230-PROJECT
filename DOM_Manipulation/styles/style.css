@@ -87,7 +87,7 @@ footer {
 	text-align: center;
 }
 footer a {
-    color: white;
+    color: rgb(15, 14, 14);
     text-decoration: underline lightblue;
     transition: color 0.5s, text-shadow 0.5s;
 }
