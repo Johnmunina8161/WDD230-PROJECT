@@ -91,6 +91,18 @@ header > span {
     color: var(--secondary-color);
     padding-bottom: 1rem;
 }
+
+header{
+    padding: .5rem 2%;
+    background-color:rgb(85, 83, 202);
+}
+header h1 {margin:0;}
+header h2 {margin: 0; font-weight: normal;}
+header figure.logo{
+    float: left;
+}
+
+
 h1 {
     color: var(--default-light);
     margin-bottom: 0.75rem;
