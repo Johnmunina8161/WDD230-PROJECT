@@ -1,34 +1,3 @@
-body {
-    grid-template-columns: auto 95% auto;
-}
-header {
-    box-shadow: 0 0 10px var(--default-dark);
-}
-nav ul {
-    grid-template-columns: 1fr;
-}
-nav ul .toggler {
-    display: block;
-}
-nav li.toggler a {
-    background-color: var(--default-light);
-    box-shadow: 0 0 10px var(--default-light), inset 0 0 10px var(--main-color);
-    color: var(--main-color);
-}
-nav li.toggler a:hover {
-    cursor: pointer;
-}
-nav li.hide a {
-    color: var(--default-light);
-    background-color: var(--default-dark);
-    box-shadow: 0 0 10px var(--default-dark);
-}
-nav ul li.hide ~ * a {
-    /* display: none; */
-    padding: 0;
-    height: 0;
-}
-
 
 section.contact-info {
     grid-template-columns: 1fr;
@@ -60,6 +29,12 @@ section.contact-info .social-links {
     }
     main.gallery picture:last-child {
         grid-column: span 1;
+    }
+    form {
+        margin: 0 auto;
+    }
+    main.form h2 {
+        text-align: center;
     }
 }
 
@@ -141,12 +116,6 @@ section.contact-info .social-links {
     section.article .img-holder {
         min-width: 0px;
         width: 100%;
-    }
-    header h1 {
-        font-size: 2rem;
-    }
-    header span {
-        font-size: 0.8rem;
     }
     div.hero {
         max-height: 310px;

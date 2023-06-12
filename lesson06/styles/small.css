@@ -54,6 +54,16 @@ section.contact-info .social-links {
 }
 
 
+@media screen and (max-width: 710px) {
+    main.gallery {
+        grid-template-columns: 1fr;
+    }
+    main.gallery picture:last-child {
+        grid-column: span 1;
+    }
+}
+
+
 @media screen and (max-width: 657px) {
     h2, h3 {
         text-align: center;
@@ -142,7 +152,10 @@ section.contact-info .social-links {
     div.hero {
         max-height: 310px;
     }
+
+  
 }
+
 
 
 

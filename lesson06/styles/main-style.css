@@ -1,5 +1,5 @@
 :root {
-    --main-color: #310cd6;
+    --main-color:rgb(85, 83, 202);
     --secondary-color: #add8e6;
     --accent-color: #90ee90;
     --default-light: #ffffff;
@@ -14,7 +14,7 @@ html { background-color: var(--secondary-color); }
 body {
     margin: 0;
     display: grid;
-    grid-template-columns: auto 80% auto;
+    grid-template-columns: auto 100% auto;
 }
 body > * {
     grid-column: 2;

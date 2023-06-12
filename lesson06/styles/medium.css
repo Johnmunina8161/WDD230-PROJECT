@@ -1,3 +1,60 @@
-body {
-    grid-template-columns: auto 90% auto;
+
+/* 35rem is also 560px when basefont is 16px 
+@media only screen and (min-width: 35rem){
+    nav button {display: none;}
+    
+    nav ul#primaryNav{
+        display:flex ;
+        justify-content: center;
+    /* justify-content: flex-start; 
+    /* justify-content: flex-end;  
+        margin-left: 2vw ; /* elargire de gauche a droite
+        border-right:1px solid rgba(0,0,0,0.3); ;
+    }
+        
+    nav ul li a {
+        border: none; /*enlever la petite ligne au desus de navigation
+        border-right: 1px solid rgba(0,0,0,0.3); /* separer les page avec un tret 
+    }  
+    
+    }
+
+    body {
+        grid-template-columns: auto 90% auto;
+    }*/
+
+    
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	/* Horizontal Menu Examples */
+	/* Flex *********************/
+  /*	nav ul { display: flex; }
+		  nav ul li { flex: 1 1 auto; } 
+ */
+	/* Grid *********************/
+ 	nav ul {
+		display: grid;
+/* 		grid-template-columns: repeat(5, 1fr); */
+		grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+		
+	} 
+
+	nav a {
+		font-size: 1rem;
+	}
+
+	nav a:hover {
+		/* 	background-color: #bbb;
+	color: #36454f; */
+		--d: 75%;
+	}
 }
+    
+    
+    
+    
+    

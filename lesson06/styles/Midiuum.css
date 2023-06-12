@@ -1,0 +1,4 @@
+body {
+    grid-template-columns: auto 100% auto;
+}
+
