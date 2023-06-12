@@ -66,18 +66,16 @@
                 </fieldset>
                 <fieldset>
                     <legend></legend>
-                    <label>Storm Date
+                    <label>Date of birth
                         <input name="storm-date" type="date">
                     </label>
-                    <label>Storm Type
+                    <label>Gender
                         <input list="weather-types" name="weather-types">
                     </label>
                     <datalist id="weather-types">
-                        <option value="snow">
-                        <option value="cold">
-                        <option value="fresh wind">
-                        <option value="Thunderstorm">
-                        <option value="hot">
+                        <option value="Man">
+                        <option value="Woman">
+                        <option value="Else">
                     </datalist>
                     <div class="split"><span>Storm Severity</span>
                         <input type="range" id="severity" name="severity" min="1" max="10" step="1" value="1" oninput="adjustLabel(this)">
