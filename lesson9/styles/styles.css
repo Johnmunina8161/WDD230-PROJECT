@@ -3,7 +3,7 @@
 
 /* Custom properties */
 :root {
-    --main-bk-color: #003459;
+    --main-bk-color: #00591b;
     --secondary-bk-color: #fff4f4;
     --main-font-color: white;
     --secondary-font-color: rgba(255, 255, 0, 0.734);
@@ -23,7 +23,7 @@ header, main, footer {
 header, footer {
     background-color: var(--main-bk-color);
     color: var(--main-font-color);
-    border-radius: 1.75em;
+    
 }
 
 header, footer {
