@@ -122,3 +122,27 @@ img {
 	max-width: 100%; /* Images are jerks - Seattle*/
 }
 
+@media (min-width: 700px) {
+	.list section img {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 48em) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block; /* change state in small view */
+       flex: 1 1 auto;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+}
