@@ -156,6 +156,31 @@ section.contact-info .social-links {
   
 }
 
+/* Directory*/
+main.s view {
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  main.s view article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  main.s view article img {
+    width: 100%;
+  }
+  
+  main.s view article h3 {
+    margin-top: 0;
+  }
+  
+  main.s view article a {
+    text-decoration: none;
+    color: #000;
+  }
+  
 
 
 
