@@ -1,23 +1,16 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap');
-
-/* Custom properties */
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 
 :root {
     --main-bk-color: #4a4a55;
-    --secondary-bk-color: #fff4f4;
+    --secondary-bk-color: #bececf;
     --main-font-color: white;
     --secondary-font-color: rgba(255, 255, 0, 0.734);
     --title-font-family: 'Ubuntu';
     --main-font-family: 'Roboto Mono';
 }
 
-/*body {
-    font-family: var(--main-font-family), monospace, sans-serif;
-}*/
 
 body{
     font-family: 'Playfair Display', serif;
