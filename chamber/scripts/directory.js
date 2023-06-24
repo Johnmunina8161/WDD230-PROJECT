@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded", () => {
             // Create a card container
             let card = document.createElement("div");
             // Create card content
-            let View = document.createElement("div");
+            let body = document.createElement("div");
             let logo = document.createElement("img");
-            let Days = document.createElement("h3");
-            let Time = document.createElement("p");
-            let Price = document.createElement("p");
+            let title = document.createElement("h3");
+            let address = document.createElement("p");
+            let phone = document.createElement("p");
             let a = document.createElement("a");
             // Get logo ready
             logo.setAttribute("src", element.logo);
@@ -22,11 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
             title.innerText = element.business;
             title.setAttribute("class", "card-title");
             // Get address ready
-            Days.innerText = element.Days;
-            Days.setAttribute("class", "card-text");
+            address.innerText = element.address;
+            address.setAttribute("class", "card-text");
             // Get phone ready
-            Time.innerText = element.Time;
-            Time.setAttribute("class", "card-text");
+            phone.innerText = element.phone;
+            phone.setAttribute("class", "card-text");
             // Get email ready
             a.innerText = element.email;
             a.setAttribute("class", "card-text");

@@ -1,73 +1,73 @@
 {
     "directory" : [
         {
-            "business" : "Cerveceria Quilmes",
+            "business" : "July 2022",
             "address" : "Felipe Amoedo 84",
-            "phone" : "+54 11 4224 5789",
+            "phone" : "+27 11 726 5300",
             "email" : "quilmescerveceria@gmail.com",
-            "logo" : "images/directory-1.png",
+            "logo" : "images/",
             "membership" : "gold"
         },
         {
-            "business" : "Quilmes Athletic Club",
+            "business" : "January 2022",
             "address" : "Guido 449",
-            "phone" : "+54 11 4224 8794",
+            "phone" : "+27 11 726 5300",
             "email" : "qac@gmail.com",
             "logo" : "images/directory-2.png",
             "membership" : "gold"
         },
         {
-            "business" : "Colegio Aleman Eduardo Holmberg",
+            "business" : "September 2022",
             "address" : "Av Mitre 682",
-            "phone" : "+54 11 4224 5755",
+            "phone" : "+27 11 726 5300",
             "email" : "holmbergschule@gmail.com",
             "logo" : "images/directory-3.png",
             "membership" : "silver"
         },
         {
-            "business" : "St George's College",
+            "business" : "March 2022",
             "address" : "Guido 800",
-            "phone" :"+54 11 4224 8889",
+            "phone" :"+27 11 726 5300",
             "email" : "stgeorges@gmail.com",
             "logo" : "images/directory-4.png",
             "membership" : "silver"
         },
         {
-            "business" : "Lo de Carlitos",
+            "business" : "November 2022",
             "address" : "Alsine 286",
-            "phone" : "+54 11 4224 7594",
+            "phone" : "+27 11 726 5300",
             "email" : "lodecarlitos@gmail.com",
             "logo" : "images/directory-5.png",
             "membership" : "free"
         },
         {
-            "business" : "Sanatorio Trinidad",
+            "business" : "September 2022",
             "address" : "Av Carlos Pellegrini 431",
-            "phone" : "+54 11 4224 1259",
+            "phone" : "+27 11 726 5300",
             "email" : "trinidadquilmes@gmail.com",
             "logo" : "images/directory-6.png",
             "membership" : "bronze"
         },
         {
-            "business" : "Area Material Quilmes",
+            "business" : "July 2021",
             "address" : "Juan B Justo 79",
-            "phone" : "+54 11 4224 1359",
+            "phone" : "+27 11 726 5300",
             "email" : "areamaterialquilmes@gmail.com",
             "logo" : "images/directory-7.png",
             "membership" : "bronze"
         },
         {
-            "business" : "Golden Jack Bingo",
+            "business" : "September 2021",
             "address" : "Av Rivadavia 323",
-            "phone" : "+54 11 4224 4894",
+            "phone" : "+27 11 726 5300",
             "email" : "goldenjack@gmail.com",
             "logo" : "images/directory-8.png",
             "membership" : "gold"
         },
         {
-            "business" : "Nuevo Quilmes Plaza",
+            "business" : "November 2021",
             "address" : "Av Caseros 1750",
-            "phone" : "+54 11 4224 1569",
+            "phone" : "+27 11 726 5300",
             "email" : "nuevoquilmes@gmail.com",
             "logo" : "images/directory-9.png",
             "membership" : "silver"
