@@ -304,65 +304,62 @@ hr {
     color: white;
 }
 
+
+
+
 /* Footer elements */
+.copyright{
+    margin-top: .5em;
+    padding-top: .5em;
+    border-top: 2px solid darkgreen;
+    font-size: 0.7em;
+    text-align: center;
 
-#footer-top-content {
-    display: grid;
-    grid-template-columns: auto 1fr 1fr;
-    grid-template-rows: repeat(3, auto);
-    grid-column-gap: 2em;
-    grid-row-gap: 0.25em;
-    place-items: center;
 }
 
-#footer-top-content h4 {
-    margin: 0;
-    padding: 0;
+#lastModified {
+    text-align: center;
+  }
+
+img.logos-footer {
+    max-width: 25%;
+    margin: -1em;
+    float: left;
+}
+
+h6 {
+    font-size: 2em;
+    color: yellow;
     text-align: left;
+    margin-top: -1em;
+    margin-left: 3em;
 }
 
-#footer-top-content p {
-    margin: 0;
-    padding: 0;
+.map {
+    color:white;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    color: #ebeff3;
+    margin-top: 20px;
+    border: 1px solid #d4dbe2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: right;
+    transform: translate(30px, -20%);
+}
+  
+
+footer img {
+  height: 120px;
+  width: auto;
+  
 }
 
-#footer-logo {
-    max-width: 100px;
-    height: auto;
-    grid-column: 1;
-    grid-row: 1/4;
+.Location{
+    text-align: right;
+    transform: translate(-20%, -20%);
 }
-
-#footer-top-content h4 {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-#footer-top-content p:nth-child(3) {
-   grid-column: 2;
-   grid-row: 2; 
-}
-
-#footer-top-content p:nth-child(4) {
-    grid-column: 2;
-    grid-row: 3;
-}
-
-#footer-top-content p:nth-child(5) {
-    grid-column: 3;
-    grid-row: 1;
-}
-
-#footer-top-content p:nth-child(6) {
-    grid-column: 3;
-    grid-row: 2;
-}
-
-#footer-top-content p:nth-child(7) {
-    grid-column: 3;
-    grid-row: 3;
-}
-
 /* Discovery page */
 
 #discovery-info {
@@ -734,32 +731,8 @@ iframe {
         
     }
 
-    #footer-top-content {
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        gap: 0.75em;
-    }
-
-    #footer-top-content p {
+    p>#lastModified{
         text-align: center;
-        margin: 0;
-    }
-
-    #footer-logo {
-        max-width: 80px;
-        height: auto;
-    }
-
-    #footer-bottom-content p {
-        margin: 0;
-    }
-
-    #footer-bottom-content, #info {
-        display: flex;
-        flex-flow: column nowrap;
-        gap: 0;
-        align-items: center;
     }
 
     /* Discovery page */

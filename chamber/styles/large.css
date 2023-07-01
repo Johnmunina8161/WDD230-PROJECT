@@ -107,17 +107,27 @@
         grid-row: 2;
     }
 
-    #footer-bottom-content p {
-        margin: 0;
-    }
 
-    #footer-bottom-content {
-        display: flex;
-        flex-flow: row wrap;
-        gap: 0.5em;
-        justify-content: center;
-    }
-
+    .copyright {
+        font-size: 1.4em;
+        margin-top: 0em;
+        padding-top: 0em;
+        border-top: 1px solid #909090;
+      }
+      #lastModified {
+        text-align: center;
+      }
+      .map {
+        float: right;
+        margin-right: 1em;
+        margin-bottom: -3em;
+      }
+    
+      footer {
+        padding-top: .1em;
+        border-radius: 15px;
+        margin-top: -.1em;
+      }
     #info {
         display: flex;
         flex-flow: row nowrap;
@@ -126,6 +136,16 @@
 
     #info p:first-child::after, #info p:nth-child(2)::after, #info p:nth-child(3)::after {
         content: " |";
+    }
+    .Location{
+        text-align: right;
+        transform: translate(-20%, -20%);
+    }
+
+    .logos-footer{
+        position: relative;
+        top: 20px;     
+        left: 10px;    
     }
 
     /* Discovery page */

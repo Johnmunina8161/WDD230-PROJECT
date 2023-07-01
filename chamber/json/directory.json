@@ -4,72 +4,72 @@
             "business" : "July 2022",
             "address" : "Felipe Amoedo 84",
             "phone" : "+27 11 726 5300",
-            "email" : "quilmescerveceria@gmail.com",
-            "logo" : "images/",
-            "membership" : "gold"
+            "email" : "jozi@gmail.com",
+            "logo" : "images/logo1.jpeg"
+            
         },
         {
             "business" : "January 2022",
             "address" : "Guido 449",
             "phone" : "+27 11 726 5300",
-            "email" : "qac@gmail.com",
-            "logo" : "images/directory-2.png",
+            "email" : "jqac@gmail.com",
+            "logo" : "images/logo2.png",
             "membership" : "gold"
         },
         {
             "business" : "September 2022",
             "address" : "Av Mitre 682",
             "phone" : "+27 11 726 5300",
-            "email" : "holmbergschule@gmail.com",
-            "logo" : "images/directory-3.png",
+            "email" : "jozi@gmail.com",
+            "logo" : "images/logo3.jpeg",
             "membership" : "silver"
         },
         {
             "business" : "March 2022",
             "address" : "Guido 800",
             "phone" :"+27 11 726 5300",
-            "email" : "stgeorges@gmail.com",
-            "logo" : "images/directory-4.png",
+            "email" : "jozi@gmail.com",
+            "logo" : "images/logo4.png",
             "membership" : "silver"
         },
         {
             "business" : "November 2022",
             "address" : "Alsine 286",
             "phone" : "+27 11 726 5300",
-            "email" : "lodecarlitos@gmail.com",
-            "logo" : "images/directory-5.png",
+            "email" : "jozi@gmail.com",
+            "logo" : "images/logo5.jpeg",
             "membership" : "free"
         },
         {
             "business" : "September 2022",
             "address" : "Av Carlos Pellegrini 431",
             "phone" : "+27 11 726 5300",
-            "email" : "trinidadquilmes@gmail.com",
-            "logo" : "images/directory-6.png",
+            "email" : "jozi@gmail.com",
+            "logo" : "images/logo6.png",
             "membership" : "bronze"
         },
         {
             "business" : "July 2021",
             "address" : "Juan B Justo 79",
             "phone" : "+27 11 726 5300",
-            "email" : "areamaterialquilmes@gmail.com",
-            "logo" : "images/directory-7.png",
+            "email" : "jozi@gmail.com",
+            "logo" : "images/logo7.png",
             "membership" : "bronze"
         },
         {
             "business" : "September 2021",
             "address" : "Av Rivadavia 323",
             "phone" : "+27 11 726 5300",
-            "email" : "goldenjack@gmail.com",
-            "logo" : "images/directory-8.png",
+            "email" : "jozi@gmail.com",
+            "logo" : "images/logo8.jpeg",
             "membership" : "gold"
         },
         {
             "business" : "November 2021",
             "address" : "Av Caseros 1750",
             "phone" : "+27 11 726 5300",
-            "email" : "nuevoquilmes@gmail.com",
-            "logo" : "images/directory-9.png",
+            "email" : "jozi@gmail.com",
+            "logo" : "images/logo9.png",
             "membership" : "silver"
         }
     ]
