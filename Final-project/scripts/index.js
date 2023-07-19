@@ -7,5 +7,5 @@ let  datetime = currentdate.getDate() + "/"
                 + currentdate.getSeconds();
 
 const currentYear = currentdate.getFullYear()
-document.getElementById("one").innerHTML = `© ${currentYear} | John Munina | South Africa`
+document.getElementById("one").innerHTML = `© ${currentYear} | John munina | South Africa`
 document.getElementById("twoLine").innerHTML = `Last Updated: ${datetime}(Southern Africa Time)`
