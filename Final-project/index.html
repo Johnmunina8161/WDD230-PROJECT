@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <title>Fresh Fruits</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+          <h1>Fresh Fruit</h1>
+        </a>
+        <nav>
+            <ul class="navigation">
+                <li><a class="menu" href="#"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./fresh.html">Fresh</a></li>
+                <li><a href="./about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <section>
+        <div class="bunner_area"></div>
+        <div class="bunner_image">
+            <img id="bunner" src="./images/midle.jpg" alt="bunner">
+        </div>
+        <div class="wlcm">
+          <h3><span>WELCOME</span> TO BOUNTIFUL FOODS</h3>
+          <p>Delivery Restaurent</p>
+          <br>
+          <a href="./fresh.html" id="contact">
+             join_us
+          </a>
+        </div>
+    </section>
+ 
+    <section class="fruits">
+        <div class="fruits_info">
+            <h2>Our Products and services</h2>
+        <p>
+          Our food trucks cover the coastal area from Los Angeles to San Deigo.
+          Our mission is to provide fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags, to the local population and to tourists visitng the coastal areas.
+          We deliver and manage orders over the phone and via the website in addition to take aways.
+        </p>
+        </div>
+    </section>
+    <section class="fruits_cards">
+      <div class="card">
+        <img class="card_img" src="./images/drinks/pexels-anna-tukhfatullina-food-photographerstylist-2616168.jpg" alt="fruits" >
+        <h3>strawberry juice</h3>
+        <p class="price">$19.99</p>
+        <p>Boosts Immune System. Fresh strawberries contain high levels of vitamin C, which is essential for a strong immune system.</p>
+        <p><button>Add to Cart</button></p>
+      </div> 
+        <div class="card">
+            <img class="card_img" src="./images/pexels-gustavo-fring-7156088.jpg" alt="fruits" >
+            <h3>Avocado</h3>
+            <p class="price">$23.5</p>
+            <p>Boosts Satiety. Eating healthy fats helps slow stomach emptying, which keeps you full longer than usual and delays the return of hunger..</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+         
+          <div class="card">
+            <img class="card_img" src="./images/drinks/pexels-valeria-boltneva-1251210.jpg" alt="fruits" >
+            <h3>mangoes juice</h3>
+            <p class="price">$13.56</p>
+            <p>Daily mango juice can help one stay fit, maintain blood pressure, and manage hypertension. Drinking mango juice also ensures enough fluid to keep it balanced.</p>
+            <p><button>Add to Cart</button></p>
+          </div> 
+
+          <div class="card">
+            <img class="card_img" src="./images/pexels-carlo-martin-alcordo-2469772.jpg" alt="fruits" >
+            <h3>Pineaples</h3>
+            <p class="price">$12.34</p>
+            <p>Pineapple contains plenty of nutrients and beneficial compounds, such as vitamin C, manganese, and enzymes to help aid digestion..</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+
+          <div class="card">
+            <img class="card_img" src="./images/drinks/mangojuice.jpg" alt="fruits" >
+            <h3>Orange juice</h3>
+            <p class="price">$20.12</p>
+            <p>Orange juice supplies other important nutrients such as potassium and folate,which promote heart health including carotenoids and flavonoids .</p>
+            <p><button>Add to Cart</button></p>
+          </div> 
+
+          <!--drinkds-->
+         
+          <div class="card">
+            <img class="card_img" src="./images/pexels-felix-rosa-6848574.jpg" alt="fruits" >
+            <h3>bananas</h3>
+            <p class="price">$9.99</p>
+            <p>bananas improve your digestion and heart health</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+          <div class="card">
+            <img class="card_img" src="./images/drinks/pexels-roman-odintsov-4955257.jpg" alt="fruits" >
+            <h3>pawpaw juice</h3>
+            <p class="price">$21.2</p>
+            <p>help improve digestion and prevent bloating.</p>
+            <p><button>Add to Cart</button></p>
+          </div> 
+          
+          <div class="card">
+            <img class="card_img" src="./images/pexels-rp-photography-693795.jpg" alt="fruits" >
+            <h3>Oranges</h3>
+            <p class="price">$19.99</p>
+            <p>Helps your body make collagen, a protein that heals wounds and gives you smoother skin.</p>
+            <p><button>Add to Cart</button></p>
+          </div> 
+    </section>
+    <div id="num_items">
+
+    </div>
+    <section class="weather">
+      <h6>Weather</h6>
+      <div>
+        <img src="#" alt="Icon of the current weather" id="iconWeather">
+        <div>
+          <p>Temperature: <span id="temp"></span>°F</p>
+          <p>Description: <span id="curr"></span></p>
+          <p>Humidity: <span id="hum"></span>%</p>
+        </div>
+      </div>
+      <table>
+        <tr>
+          <th><span id="nameDay1"></span></th>
+          <th><span id="nameDay2"></span></th>
+          <th><span id="nameDay3"></span></th>
+          <th><span id="nameDay4"></span></th>
+          <th><span id="nameDay5"></span></th>
+        </tr>
+        <tr>
+          <td><img src="#" alt="image forecast" id="imgForecast2"></td>
+          <td><img src="#" alt="image forecast" id="imgForecast10"></td>
+          <td><img src="#" alt="image forecast" id="imgForecast18"></td>
+          <td><img src="#" alt="image forecast" id="imgForecast26"></td>
+          <td><img src="#" alt="image forecast" id="imgForecast34"></td>
+        </tr>
+        <tr>
+          <td><span id="tempForecast2"></span>°F</td>
+          <td><span id="tempForecast10"></span>°F</td>
+          <td><span id="tempForecast18"></span>°F</td>
+          <td><span id="tempForecast26"></span>°F</td>
+          <td><span id="tempForecast34"></span>°F</td>
+        </tr>
+      </table>
+    </section>
+    <section class="summary">
+      <div class="sumry">
+        <h4>Summary </h4>
+        <p>
+          We sell best organic fruits in the business that are directly coming from the farmers in the area,
+          but whenever needed we use some natinoal and international suppliers.
+        </p>
+      </div>
+    </section>
+</main>
+    <footer>
+        <div class="footer_data">
+            <div class="imageicon">
+                <h2>Fresh Fruits</h2>
+                <div class="social_icons"></div>
+                <i class="icon-youtube-play"></i> 
+                <i class="icon-instagram"></i> 
+                <i class="icon-facebook"></i> 
+                <i class="icon-linkedin"></i> 
+            </div>
+            <div class="location">
+                  <p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.0800299802922!2d-117.24174268485447!3d33.080679080881346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc0b0dc12d5775%3A0xa5ebd25b095da11c!2s7803%20Centella%20St%2C%20Carlsbad%2C%20CA%2092009%2C%20USA!5e0!3m2!1sen!2s!4v1670958685446!5m2!1sen!2s" width="550" height="275" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </p>
+            </div>
+            <div class="contact">
+                <p>📌7803 CENTELLA ST CARLSBAD CA 92009-8319</p>
+                <p>📞(302) 456-2909</p>
+                <p>📧info@bountifulfoods.com</p>
+            </div>
+        </div>
+        <hr>
+        <div class="sub_footer">
+            <div class="bottom">
+                <p id="one"></p>
+                <p id="twoLine"></p>
+            </div>
+        </div>
+    </footer>
+ 
+    <script src="./scripts/navigation.js"></script>
+    <script src="./scripts/weather.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/fruits.js"></script>>
+</body>
+</html>
